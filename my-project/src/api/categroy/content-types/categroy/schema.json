@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categroys",
+  "info": {
+    "singularName": "categroy",
+    "pluralName": "categroys",
+    "displayName": "Categroy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 20
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

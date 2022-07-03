@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "papular_categroys",
+  "info": {
+    "singularName": "papular-categroy",
+    "pluralName": "papular-categroys",
+    "displayName": "PapularCategroy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categroy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categroy.categroy"
+    }
+  }
+}
